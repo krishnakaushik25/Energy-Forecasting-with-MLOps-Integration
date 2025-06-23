@@ -1,9 +1,5 @@
 # Denmark's Energy Consumption Forecasting
 
-Click the following options to see it in action:
-* [Web Application](http://34.93.41.229:8501/)
-* [Monitoring Web App](http://34.93.41.229:8502/)
-
 ![Green Energy](./assets/dk_energy_source.jpg)
 
 ---
@@ -67,11 +63,11 @@ The feature pipeline consists of several preprocessing and feature engineering s
 
 Feature pipeline command:
 ```
-python energy_consumption_forecasting/feature_pipeline/feature_pipeline.py -s 2021-01-01 -e 2023-12-31
+python energy_consumption_forecasting/feature_pipeline/feature_pipeline.py -s 2024-01-01 -e 2024-12-31
 ```
 Feature view command:
 ```
-python energy_consumption_forecasting/feature_pipeline/feature_view.py -s 2021-01-01 -e 2023-12-31
+python energy_consumption_forecasting/feature_pipeline/feature_view.py -s 2024-01-01 -e 2024-12-31
 ```
 
 ### Training Pipeline
@@ -216,7 +212,3 @@ The continuous deployment is performed by utilizing a tool called GitHub Actions
 ## Conclusion
 This project showcases the implementation of an MLOps workflow for electricity consumption forecasting in Denmark. By focusing on workflow design and integration, the project demonstrates the importance of robust deployment and monitoring practices in real-world applications. Future efforts may involve refining the workflow, applying DRY principles, exploring additional modeling techniques, and enhancing monitoring capabilities to further improve forecast accuracy and reliability.
 
-## Feedback
-Thanks for taking the time to read about my project. I appreciate any feedback.
-
-Linkedin profile: [https://www.linkedin.com/in/thisisjohnpinto/](https://www.linkedin.com/in/thisisjohnpinto/)
